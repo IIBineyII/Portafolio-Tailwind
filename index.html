@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Brayan Garcia Ruiz, coder en formación del Clan Nakamoto.">
+  <title>Brayan Garcia Ruiz | Portafolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS v4 (build en el navegador, sin Node ni compilación) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-noche: #0a1628;
+      --color-abismo: #0f2038;
+      --color-acero: #1b3558;
+      --color-azul: #3f78b5;
+      --color-hielo: #a9c7e8;
+      --color-bruma: #dbe8f6;
+      --font-display: "Cormorant Garamond", Georgia, serif;
+      --font-sans: "Source Sans 3", system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body class="bg-noche font-sans leading-relaxed text-bruma antialiased">
+
+  <header class="border-b border-acero/60">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4" aria-label="Principal">
+      <a href="#inicio" class="font-display text-xl font-bold text-bruma">Brayan Garcia Ruiz</a>
+      <ul class="flex gap-6 text-hielo">
+        <li><a class="rounded px-1 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hielo" href="#perfil">Perfil</a></li>
+        <li><a class="rounded px-1 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hielo" href="#sobre-mi">Sobre mí</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <!-- Presentación -->
+    <section class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-2 lg:py-24" aria-labelledby="titulo-principal">
+      <div>
+        <p class="text-hielo">Hola, soy</p>
+        <h1 id="titulo-principal" class="mt-2 font-display text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">Brayan Garcia Ruiz</h1>
+        <p class="mt-6 max-w-xl text-lg text-bruma/90">Coder en formación del Clan Nakamoto. Aprendo HTML, CSS y Git para crear páginas web, con disciplina y constancia.</p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#perfil" class="rounded-lg bg-azul px-6 py-3 font-semibold text-white transition hover:bg-hielo hover:text-noche focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hielo">Ver mi perfil</a>
+          <a href="#sobre-mi" class="rounded-lg border border-hielo/50 px-6 py-3 font-semibold text-hielo transition hover:bg-acero focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hielo">Sobre mí</a>
+        </div>
+      </div>
+      <img src="./assets/img/caballero-casco.svg" alt="Ilustración de un caballero con casco cerrado y penacho azul" class="mx-auto w-full max-w-sm rounded-3xl border border-acero shadow-2xl shadow-black/40 lg:max-w-md">
+    </section>
+
+    <!-- Perfil -->
+    <section id="perfil" class="mx-auto max-w-6xl px-6 pb-16" aria-labelledby="titulo-perfil">
+      <h2 id="titulo-perfil" class="font-display text-4xl font-bold text-white">Mi perfil de aventurero</h2>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-6">
+
+        <article class="rounded-2xl border border-acero bg-abismo p-6 md:col-span-2">
+          <h3 class="font-display text-2xl font-bold text-white">🏰 Origen</h3>
+          <p class="mt-3 text-hielo">Clan Nakamoto | Jornada AM</p>
+        </article>
+
+        <article class="rounded-2xl border border-acero bg-abismo p-6 md:col-span-4">
+          <h3 class="font-display text-2xl font-bold text-white">💡 Skillset principal</h3>
+          <p class="mt-3 text-bruma/90">Disciplina, resiliencia y responsabilidad. Constancia en el desarrollo, resolución de problemas bajo presión y compromiso con la entrega de código de calidad.</p>
+        </article>
+
+        <article class="rounded-2xl border border-acero bg-abismo p-6 md:col-span-3">
+          <h3 class="font-display text-2xl font-bold text-white">🔧 Oportunidad de mejora</h3>
+          <p class="mt-3 text-bruma/90">Mejor manejo del tiempo para rendir en más tareas y prácticas. Optimización de flujos de trabajo personales para maximizar la productividad sin sacrificar la calidad.</p>
+        </article>
+
+        <article class="rounded-2xl border border-acero bg-abismo p-6 md:col-span-3">
+          <h3 class="font-display text-2xl font-bold text-white">🤝 Súper poder de equipo</h3>
+          <p class="mt-3 text-bruma/90">Mantener la calma y el orden cuando se requiere. Siempre presente como buen complemento para los compañeros, ofreciendo soporte técnico y moral en momentos de desafío.</p>
+        </article>
+
+        <article class="rounded-2xl border border-azul/60 bg-acero p-6 md:col-span-6">
+          <h3 class="font-display text-2xl font-bold text-white">🗣️ Mantra de batalla</h3>
+          <blockquote class="mt-3 font-display text-3xl font-semibold text-white sm:text-4xl">“La disciplina vencerá al talento”</blockquote>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="border-t border-acero/60 bg-abismo" aria-labelledby="titulo-sobre-mi">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-2">
+        <img src="./assets/img/caballero-hoguera.svg" alt="Silueta de un caballero con casco junto a una hoguera azul, bajo la luna" class="mx-auto w-full max-w-sm rounded-3xl border border-acero shadow-2xl shadow-black/40">
+        <div>
+          <h2 id="titulo-sobre-mi" class="font-display text-4xl font-bold text-white">Sobre mí</h2>
+          <p class="mt-4 max-w-xl text-lg text-bruma/90">Hola, soy un coder y estoy aprendiendo HTML, CSS y Git para crear páginas web. Esta es mi página de presentación, construida con Tailwind CSS y publicada con GitHub.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-acero/60 px-6 py-8 text-center text-hielo">
+    <p>© 2026 Brayan Garcia Ruiz · Hecho en VS Code y GitHub.</p>
+  </footer>
+
+</body>
+</html>

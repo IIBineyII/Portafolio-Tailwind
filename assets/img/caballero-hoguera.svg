@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-labelledby="t d">
+  <title id="t">Caballero junto a una hoguera azul</title>
+  <desc id="d">Silueta de un caballero con casco, apoyado en una espada clavada en el suelo bajo la luna, entre ruinas y bruma.</desc>
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#091426"/><stop offset="1" stop-color="#1a3a61"/>
+    </linearGradient>
+    <radialGradient id="luna" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#cfe3f7" stop-opacity=".6"/><stop offset="1" stop-color="#cfe3f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="llama" cx=".5" cy=".8" r=".6">
+      <stop offset="0" stop-color="#6fd8ff" stop-opacity=".7"/><stop offset="1" stop-color="#6fd8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#cielo)"/>
+  <circle cx="292" cy="118" r="120" fill="url(#luna)"/>
+  <circle cx="292" cy="118" r="52" fill="#dbe8f6"/>
+  <circle cx="276" cy="106" r="9" fill="#a9c7e8" opacity=".6"/><circle cx="306" cy="132" r="6" fill="#a9c7e8" opacity=".5"/>
+  <!-- ruinas -->
+  <path d="M0 360 V250 L18 250 V220 L34 220 V250 H60 V300 L90 300 V240 L104 226 L118 240 V320 H150 V360 Z" fill="#102844"/>
+  <path d="M250 360 V300 H278 V262 L292 244 L306 262 V310 H336 V270 H352 V230 L370 214 L388 230 V360 Z" fill="#102844"/>
+  <path d="M0 420 Q120 392 200 410 T400 405 V500 H0 Z" fill="#081322"/>
+  <ellipse cx="200" cy="432" rx="190" ry="22" fill="#cfe3f7" opacity=".07"/>
+  <!-- capa -->
+  <path d="M152 196 C108 282 112 372 98 428 L128 418 L140 436 L156 414 L166 424 L172 232 Z" fill="#0f2a4a"/>
+  <path d="M248 196 C292 282 288 372 302 428 L272 418 L260 436 L244 414 L234 424 L228 232 Z" fill="#0f2a4a"/>
+  <!-- piernas -->
+  <path d="M164 316 H198 L194 428 H156 Z" fill="#0b1c32" stroke="#5f86b3" stroke-opacity=".5"/>
+  <path d="M202 316 H236 L244 428 H206 Z" fill="#0b1c32" stroke="#5f86b3" stroke-opacity=".5"/>
+  <!-- torso y hombros -->
+  <path d="M158 226 H242 L238 322 H162 Z" fill="#12263f" stroke="#7aa3cf" stroke-opacity=".55"/>
+  <path d="M140 232 Q150 196 200 192 Q250 196 260 232 L248 244 H152 Z" fill="#17314f" stroke="#7aa3cf" stroke-opacity=".6"/>
+  <rect x="160" y="300" width="80" height="12" fill="#0a1628" stroke="#7aa3cf" stroke-opacity=".4"/>
+  <!-- casco -->
+  <path d="M176 192 C170 140 230 140 224 192 Z" fill="#17314f" stroke="#a9c7e8" stroke-opacity=".7" stroke-width="1.5"/>
+  <path d="M174 160 C176 112 224 112 226 160 L228 196 H172 Z" fill="#17314f" stroke="#a9c7e8" stroke-opacity=".7" stroke-width="1.5"/>
+  <rect x="180" y="156" width="40" height="5" fill="#6fd8ff"/>
+  <rect x="198" y="156" width="4" height="30" fill="#050d18"/>
+  <!-- brazos hacia el pomo -->
+  <path d="M150 238 L176 288 L192 284 L170 236 Z" fill="#17314f" stroke="#7aa3cf" stroke-opacity=".5"/>
+  <path d="M250 238 L224 288 L208 284 L230 236 Z" fill="#17314f" stroke="#7aa3cf" stroke-opacity=".5"/>
+  <!-- espada clavada -->
+  <circle cx="200" cy="282" r="7" fill="#a9c7e8"/>
+  <rect x="196" y="286" width="8" height="26" fill="#2a4a73"/>
+  <rect x="166" y="310" width="68" height="8" rx="2" fill="#a9c7e8"/>
+  <path d="M192 318 H208 L204 446 L200 456 L196 446 Z" fill="#cfe3f7"/>
+  <!-- llama azul -->
+  <ellipse cx="200" cy="448" rx="70" ry="44" fill="url(#llama)"/>
+  <path d="M200 400 C216 420 222 438 212 452 C206 446 204 440 200 440 C196 440 194 446 188 452 C178 438 184 420 200 400 Z" fill="#6fd8ff"/>
+  <path d="M200 424 C207 434 208 444 202 452 C196 452 192 444 200 424 Z" fill="#dff6ff"/>
+</svg>
