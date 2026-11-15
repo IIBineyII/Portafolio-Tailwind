@@ -2,6 +2,10 @@
 
 Página de presentación hecha con HTML y **Tailwind CSS v4** (build en el navegador por CDN, sin instalar nada).
 
+Esta página contiene información sobre mi persona "Brayan Garcia Ruiz" sobre mis habilidades y fortaleces en equipos de trabajo,
+decidí usar un estilo estilo oscuro con alusión a caballeros debido a que mi saga favorita de videojuegos es "Dark souls", quise mantener
+un estilo minimalista variando con algunos tonos de color.
+
 ## Estructura
 
 ```
@@ -18,22 +22,4 @@ portafolio-brayan/
 
 Abre `index.html` en el navegador (o usa Live Server en VS Code). Necesita internet para cargar Tailwind y las fuentes.
 
-## Subir a GitHub
 
-```bash
-git init
-git add .
-git commit -m "Portafolio inicial"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/portafolio-brayan.git
-git push -u origin main
-```
-
-## Publicar con GitHub Pages
-
-Settings → Pages → Branch `main` → carpeta `/ (root)` → Save.
-
-## Personalizar
-
-- Colores y fuentes: bloque `@theme` dentro de `index.html`.
-- Imágenes: reemplaza los SVG de `assets/img/` (conserva los nombres o actualiza las rutas).
